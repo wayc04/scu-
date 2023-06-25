@@ -1,0 +1,11 @@
+<!--index.wxml-->
+
+<view class="" hover-class="none" hover-stop-propagation="false" style="width: 100%; height: 100%;">
+  <map id="map" longitude="{{longitude}}" latitude=" {{latitude}}" markers="{{markers}}" scale="16" show-location style="width: 100%; height: 80%;"></map>
+</view>
+
+
+<view  class="btns" bindtap='gotosaoma' >
+  <button>扫一扫借伞</button>
+</view>
+
