@@ -34,13 +34,13 @@ wx.cloud.callFunction({
 将用户加到数据库中  
 调用方式：  
 wx.cloud.callFunction({
-      name:"signUp",
-      data:{
-        userName:userName ,
-       userInfo:userInfo,
-        openid:openid,
+      name:"signUp",  
+      data:{  
+        userName:userName ,  
+       userInfo:userInfo,  
+        openid:openid,  
       }
-    })
+    })  
 
   
 参数：data中的userName是用户填入的名字 userInfo是获取的用户信息 openid是用户的openid
